@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WorkshopAgs" tests="7" time="1.944">
+  <testsuite name="1 Create Trello board" id="5b42b436-ff31-4046-8386-75f11ae0155b" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.598">
+    <testcase name="Status code is 200" time="0.598"/>
+    <testcase name="Validate Board Name is created as expected" time="0.598"/>
+  </testsuite>
+  <testsuite name="2 Create ToDo List" id="362aa772-7128-4df1-b16d-e225f1440dc9" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.188">
+    <testcase name="Status code is 200" time="0.188"/>
+    <testcase name="Validate ToDo card was created as expected" time="0.188"/>
+  </testsuite>
+  <testsuite name="3 Create Done List" id="128975cd-5512-44cd-8254-961021a19102" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.186">
+    <testcase name="Status code is 200" time="0.186"/>
+    <testcase name="Validate Done card was created as expected" time="0.186"/>
+  </testsuite>
+  <testsuite name="4 Create New Card" id="749e026a-8d0d-4c94-b610-7b8b746c83ca" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.264">
+    <testcase name="Status code is 200" time="0.264"/>
+    <testcase name="Validate Card has been created as expected" time="0.264"/>
+  </testsuite>
+  <testsuite name="5 Move Card to Done List" id="e8c9d1e3-33a8-4aac-a16b-4857b89324e9" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.210">
+    <testcase name="Status code is 200" time="0.210"/>
+    <testcase name="Validate Card has been moved to the Done List" time="0.210"/>
+  </testsuite>
+  <testsuite name="6 Delete board" id="d6269576-9765-4325-ab3e-5af863263bd5" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.373">
+    <testcase name="Status code is 200" time="0.373"/>
+    <testcase name="Your test name" time="0.373"/>
+  </testsuite>
+  <testsuite name="7 Get Deleted board" id="482f65f5-f300-46c0-a514-56fc3727a4a4" timestamp="2020-01-18T06:14:24.480Z" classname="JUnitXmlReporter.constructor" tests="2" failures="0" errors="0" time="0.125">
+    <testcase name="Status code is 404" time="0.125"/>
+    <testcase name="Body matches string" time="0.125"/>
+  </testsuite>
+</testsuites>
